@@ -10,12 +10,43 @@
 
   	<link rel="stylesheet" type="text/css" href="estilos.css">
 
+  	<link rel="shortcut icon" href="logo-dportenis.ico">
+
 </head>
 <body>
 
-	<h1>HELLO WORLD</h1>
+	<!-- ENCABEZADO -->
+	<h1 class="title"> Aplicación JAVASCRIPT para consumir - Servicio REST</h1>
+    
+    <!-- CONTENEDOR MAIN -->
+    <div class="container">
 
-	<h2>HOLA MUNDO</h2>
+    	<!-- TARJETA DE INFORMACION -->
+        <div class="card">
 
+        	<!-- IMAGEN -->
+            <img src="logo-dportenis.png">       
+            <h4>EJERCICIO #1</h4>
+
+            <!-- BOTON QUE LLAMA FUNCION JS PARA CONSUMIR SERVICIO REST -->
+            <a class="boton-personalizado-3" href='javascript:;' onclick="ConsultarElementos();">
+                CONSULTAR
+            </a>
+           	<div id="elem1"></div>
+	        <div id="elem2"></div>
+	        <div id="elem3"></div>
+	        <div id="elem4"></div>
+	        <div id="elem5"></div> 
+	    </div>  
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="contenido-footer">
+            <p>Examen practico | Ejercicio 1 por Jacv | <b>08.02.2021</b></p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
